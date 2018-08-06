@@ -11,12 +11,30 @@
   -box-sizing: border-box;
 }
 .body {
-  display; flex;
+  display: flex;
   width: 100%;
   height: "";
-  background-position center;
+  background-position:center;
 
 }
+
+#inicial-page{
+  display: none;
+}
+#splash {
+  position: absolute;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#splash h1{
+  color: white;
+}
+
 
 .button {
   cursor: pointer;
@@ -38,18 +56,12 @@
   font-size: 1.3rem;
   box-shadow: 20px 38px -26px hsla(0,0%,0%,.3),
   border-color: #E56;
-  color: #E56;
+  
 }
 .button-effect:hover {
   box-shadow: 2px 8px 4px -6px hsla(0,0%,0%,.3)
   border-color: #E56;
   color: #E56;
-}
-
-
-
-
-
 }
 
 #map {
